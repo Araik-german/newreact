@@ -1,0 +1,81 @@
+.boxis{
+  
+   padding-top: 50px ;
+   margin-left: 15%;
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+}
+.boxis h1{
+   text-align: center;
+   font-size: 60px;
+   color: rgb(92, 87, 87);
+}
+.enterBoxis{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.enterBoxis input{
+   border-color:#8acfc5 ;
+   width: 300px;
+   margin: 10px;
+   height: 40px;
+}
+.enterBoxis input:hover{
+   background-color:#adc4c0 ;
+}
+.messageBox input:hover{
+   background-color:#adc4c0 ;
+}
+.messageBox{
+   margin-top: 30px;
+}
+
+.messageBox input{
+   border-color:#8acfc5 ;
+   width: 100%;
+   height: 100px;
+}
+.checkBoxis {
+   margin-top: 20px;
+   display: flex;
+   justify-content: left;
+}
+.checkBoxis div{
+   
+   margin: 10px;
+}
+.sendBoxis{
+   margin-top: 30px;
+   display: flex;
+   justify-content: left;
+}
+.sendBoxis input{
+   border-color:#8acfc5 ;
+   width: 60px;
+   height: 40px;
+margin-left: 20px;
+}
+.sendBoxis button{
+   border-color:#8acfc5 ;
+   width: 120px;
+   height: 40px;
+
+}
+.sendBoxis button:hover{
+   background-color: #3ee6cc;
+   color: white;
+}
+.sendBoxis input:hover{
+   background-color: #3ee6cc;
+   color: white;
+}
+@media screen and (max-width :417px){
+
+   .checkBoxis div{
+
+     font-size: 10px;
+   }
+}
+   

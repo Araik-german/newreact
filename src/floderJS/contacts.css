@@ -1,0 +1,41 @@
+.contactPart{
+   position: relative;
+   background-color: gray;
+  height: 400px;
+}
+.contactBlock{
+   position: absolute;
+   height: 90%;
+   background-color: white;
+ margin-top: 2%;
+   width: 400px;
+   
+   line-height: 50px;
+   
+}
+.nextEach{
+
+   display: flex;
+   justify-content: center;
+}
+.nextEach p{
+   font-size: 20px;
+}
+@media screen and (max-width : 500px){
+   .contactBlock{
+
+      background-color: white;
+    
+      width: 320px;
+  
+      
+      line-height: 30px;
+      
+   }
+   .nextEach h2{
+     
+     font-size: 17px;
+      line-height: 40px;
+    
+   }
+}

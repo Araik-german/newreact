@@ -1,0 +1,19 @@
+@media screen and (max-width :1200px){
+   .colPicture{
+      width: 30%;
+   }
+   .colText{
+      width: 70%;
+   }
+
+}
+@media screen and (max-width :860px){
+   .colPicture{
+      display: none;
+   }
+   .colText{
+      width: 100%;
+   }
+
+}
+   

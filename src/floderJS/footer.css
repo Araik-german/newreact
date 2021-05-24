@@ -1,0 +1,40 @@
+.all{
+   margin-top: 30px;
+   background-color: #8acfc5;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   color: white;
+   padding: 30px;
+}
+.all div{
+   line-height: 40px;
+   width: 300px;
+}
+#ent{
+   width: 200px;
+   height: 40px;
+}
+#ent:hover{
+   background-color: teal;
+}
+#ok{
+   width:46px;
+   height: 46px;
+}
+#ok:hover{
+   background-color: teal;
+   border: 2px solid black;
+}
+.logs{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.logs a{
+ color: white;  
+ font-size: 20px;
+}
+.logs a:hover{
+   color: rgb(1, 15, 15);
+}

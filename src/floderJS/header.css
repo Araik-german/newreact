@@ -1,0 +1,52 @@
+.header{
+   height: 500px;
+   background-image: url(../images/img-05.jpg);
+   background-size: cover;
+   margin-bottom: 50px;
+}
+.header button{
+   width: 150px;
+   height: 40px;
+   border-radius: 10px;
+   font-size: 20px;
+   background-color: rgba(128, 128, 128, 0.055);
+   color: white;
+}
+.header .links{
+   margin-left: 70%;
+   padding-top: 2%;
+}
+.header .links a{
+   margin-right: 10px;
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+
+.backMidle{
+   font-weight: 900;
+   font-size: 35px;
+   text-align: center;
+   margin: 100px auto;
+   color: rgb(235, 221, 98);
+}
+@media screen and (max-width :500px){
+.header{
+   height: 400px;
+}
+.header button{
+   width: 90px;
+   height: 40px;
+   border-radius: 10px;
+   font-size: 14px;
+   background-color: rgba(128, 128, 128, 0.055);
+   color: white;
+}
+.backMidle{
+   font-weight: 200;
+   font-size: 24px;
+   text-align: center;
+   margin: 50px auto;
+   color: rgb(235, 221, 98);
+}
+}

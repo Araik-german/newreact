@@ -1,0 +1,44 @@
+.col{
+   
+   margin-top: 50px;
+   margin-bottom: 50px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.col h1{
+   position: absolute;
+   margin-left: 92%;
+   font-size: 70px;
+   color: rgba(255, 254, 254, 0.603);
+   line-height: 110px;
+}
+.colPicture{
+   position: relative;
+   width: 50%;
+   height: 500px;
+   background-image: url(../images/img-01.jpg);
+   background-size: cover;
+
+   
+}
+.colText{
+   background-color: rgb(216, 211, 211);
+   width: 50%;
+}
+
+.colText div{
+  padding: 30px;
+  
+}
+.colText h2{
+   font-size: 30px;
+}
+.colText p{
+   font-size: 20px;
+}
+.colText span{
+
+   font-size: 16px;
+   color: rgb(131, 125, 125);
+   line-height: 30px;
+}

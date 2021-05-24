@@ -1,0 +1,41 @@
+.block{
+   align-items: center;
+   width: 300px;
+   display: flex;
+flex-direction: column;
+text-align: center;
+margin: 10px auto;
+}
+.block img{
+   margin: 0 auto;
+   width: 200px;
+}
+.mmm{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.main h2{
+   text-align: center;
+   font-size: 60px;
+   color: rgb(92, 87, 87);
+}
+.firsOne h2{
+   text-align: center;
+   font-size: 60px;
+   color:rgb(92, 87, 87);
+}
+
+
+@media screen and (max-width :500px) {
+  .main h2{
+   text-align: center;
+   font-size: 40px;
+   color: rgb(92, 87, 87);
+}
+.firsOne h2{
+   text-align: center;
+   font-size: 40px;
+   color: rgb(92, 87, 87);
+} 
+}
